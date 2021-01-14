@@ -13,6 +13,7 @@
 		4EDF7CC325AFD84C00E1D113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF7CC125AFD84C00E1D113 /* Main.storyboard */; };
 		4EDF7CC525AFD84D00E1D113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF7CC425AFD84D00E1D113 /* Assets.xcassets */; };
 		4EDF7CC825AFD84D00E1D113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF7CC625AFD84D00E1D113 /* LaunchScreen.storyboard */; };
+		4EDF7CD025AFDB1F00E1D113 /* WeatherForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF7CCF25AFDB1F00E1D113 /* WeatherForecastData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4EDF7CC425AFD84D00E1D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDF7CC725AFD84D00E1D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EDF7CC925AFD84D00E1D113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF7CCF25AFDB1F00E1D113 /* WeatherForecastData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherForecastData.swift; path = ../../../Documents/WeatherForecastStarter/WeatherForecast/WeatherForecastData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4EDF7CC425AFD84D00E1D113 /* Assets.xcassets */,
 				4EDF7CC625AFD84D00E1D113 /* LaunchScreen.storyboard */,
 				4EDF7CC925AFD84D00E1D113 /* Info.plist */,
+				4EDF7CCF25AFDB1F00E1D113 /* WeatherForecastData.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDF7CC025AFD84C00E1D113 /* ViewController.swift in Sources */,
+				4EDF7CD025AFDB1F00E1D113 /* WeatherForecastData.swift in Sources */,
 				4EDF7CBC25AFD84C00E1D113 /* AppDelegate.swift in Sources */,
 				4EDF7CBE25AFD84C00E1D113 /* SceneDelegate.swift in Sources */,
 			);
